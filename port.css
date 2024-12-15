@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background: #e600b8;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-list li {
+    margin: 0 15px;
+  }
+  
+  .nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-list a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 2rem 0;
+  }
+  
+  .section h2 {
+    text-align: center;
+    color: #e600c7;
+    margin-bottom: 1rem;
+  }
+  
+  .about p,
+  .skills ul {
+    text-align: center;
+  }
+  
+  .project-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    width: 45%;
+    background: #f9f9f9;
+  }
+  
+  .project h3 {
+    color: #e600c7;
+  }
+  
+  .project a {
+    color: #e600c7;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+
+
+  
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .profile-pic {
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center-align */
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    border-radius: 60%; /* Make it a circle */
+    border: 3px solid #ff00e1; /* Add a border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow */
+  }
+  
